@@ -1,0 +1,19 @@
+.input {
+  display: flex;
+  width: 90%;
+  position: relative;
+  align-items: center;
+}
+.input-box {
+  width: 100%;
+  border-radius: 50px;
+  padding: 20px 30px;
+  font-size: 25px;
+}
+.input-submit {
+  position: absolute;
+  height: 50px;
+  margin: 12px;
+  border-radius: 50px;
+  right: 0px;
+}
