@@ -30,7 +30,7 @@
   border-radius: 5px;
   padding: 20px;
   margin-top: 15px;
-  background-color: bisque;
+  background-color: rgb(226, 225, 225);
 }
 .todos-single-text {
   flex: 1;
