@@ -17,3 +17,29 @@
   border-radius: 50px;
   right: 0px;
 }
+.todos {
+  display: flexbox;
+
+  align-items: center;
+  width: 90%;
+}
+
+.todos-single {
+  display: flex;
+  width: 90%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  background-color: bisque;
+}
+.todos-single-text {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+}
+.icon {
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
