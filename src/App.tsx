@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './App.css'
 import { InputField } from './components/InputField.tsx'
 import type { Todo } from './model.ts'
@@ -6,9 +6,9 @@ import type { Filter } from './model.ts'
 import TodoList from './components/TodoList.tsx'
 
 const App: React.FC = () =>  {
-  const [todo, setTodo] = useState<string>('')
-  const [todos, setTodos] = useState<Todo[]>([])
-  const [activeFilter, setActiveFilter] = useState<Filter>('all')
+  const [todo, setTodo] = React.useState<string>('')
+  const [todos, setTodos] = React.useState<Todo[]>([])
+  const [activeFilter, setActiveFilter] = React.useState<Filter>('all')
 
   const handleAdd = (e: React.FormEvent) => {
     e.preventDefault()
